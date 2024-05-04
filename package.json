@@ -1,0 +1,24 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4",
+    "http-errors": "1",
+    "morgan": "1.9"
+  },
+  "devDependencies": {
+    "eslint": "^9.2.0",
+    "globals": "^15.1.0"
+  }
+}
