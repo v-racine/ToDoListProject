@@ -8,17 +8,11 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "foo": "echo 'How do you do?'",
     "babel": "babel lib --out-dir dist --presets=@babel/preset-env"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "4",
-    "http-errors": "1",
-    "morgan": "1.9"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.24.5",
     "@babel/core": "^7.24.5",
