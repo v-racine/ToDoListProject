@@ -51,7 +51,7 @@ describe('TodoList', () => {
     expect(list.isDone()).toBe(false);
   });
 
-  test('calling add throws errir when non todo item is added', () => {
+  test('calling add throws error when non todo item is added', () => {
     expect(() => list.add(1)).toThrow(TypeError);
     expect(() => list.add("poop")).toThrow(TypeError);
     expect(() => list.add(new TodoList("my list"))).toThrow(TypeError);
